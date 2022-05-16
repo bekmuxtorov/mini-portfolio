@@ -282,6 +282,7 @@ footer{
     }
    
     .main-img{
+        margin: 0;
         margin-bottom: 20px;
     }
 
@@ -305,4 +306,5 @@ footer{
     .nav-item{
         font-size: 21px;
     }
+    
 }
