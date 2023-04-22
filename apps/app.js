@@ -8,7 +8,7 @@ var typed = new Typed('.an', {
 
 var typed = new Typed('.an2', {
     strings: [
-        "19 years old, from Fergana, student at the University, Front-End Engineer"
+        `${new Date().getFullYear() - 2003} years old, from Fergana, student at the University, Back-End Engineer`
     ],
     typeSpeed: 100,
     loop: false,
