@@ -76,14 +76,18 @@
     list-style: none;
 }
 
-.project-overview li:not(:last-child) {
+.project-overview div {
+    list-style: none;
+}
+
+.project-overview div:not(:last-child) {
     margin-right: 100px;
 }
 
 .project-overview h4 {
-    font-size: 60px;
+    font-size: 36px;
     color: rgb(49, 21, 105);
-    font-weight: bold;
+    font-weight: 700;
     line-height: 80px;
     font-family: 'GlacialIndifference' sans-serif;
 }
@@ -140,7 +144,7 @@ footer p {
 }
 
 @media only screen and (max-width: 992px) {
-    .project-overview li:not(:last-child) {
+    .project-overview div:not(:last-child) {
         margin-right: 70px;
     }
 
@@ -165,7 +169,7 @@ footer p {
         flex-direction: column;
     }
 
-    .project-overview li {
+    .project-overview div {
         margin: 0;
     }
 
