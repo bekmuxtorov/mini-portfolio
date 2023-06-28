@@ -1,4 +1,5 @@
-fetch('https://apibekmuxtorov.pythonanywhere.com/api/projects/')
+url = 'https://apibekmuxtorov.pythonanywhere.com'
+fetch(`${url}/api/projects/`)
     .then(response => response.json())
     .then(data => {
         // Ma'lumotlarni olish uchun ishlovchi kodlar
@@ -25,9 +26,10 @@ fetch('https://apibekmuxtorov.pythonanywhere.com/api/projects/')
                 </a>
             </div>
             <div class="img">
-                <img src="./images/img1.png" alt="images">
+                <img src="${url}${item.images[0].image}" alt="images">
             </div>
             `;
+
             ulElement.appendChild(liElement)
         });
     })

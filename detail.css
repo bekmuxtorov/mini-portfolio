@@ -50,18 +50,19 @@
 
 
 .portfolio-detail {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .detail-img {
     text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 40%;
 }
 
 .detail-description {
     width: 80%;
     margin: 0 auto;
-
-
 }
 
 .project-overview {
@@ -191,7 +192,6 @@ footer p {
     .detail-title {
         font-size: 30px;
         line-height: 40px;
-
     }
 
     .project-overview {
