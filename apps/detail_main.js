@@ -24,7 +24,7 @@ fetch(url)
             if (images.indexOf(item) === 0) {
                 carousel_item.classList.add('active');
             }
-            carousel_item.innerHTML = `<img class="d-block w-100" src="${url + item.image}" alt="item">`;
+            carousel_item.innerHTML = `<img class="d-block w-100" src="${API_URL + item.image}" alt="item">`;
             carousel_inner.appendChild(carousel_item);
         });
 
