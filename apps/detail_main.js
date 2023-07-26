@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const projectId = urlParams.get('projectId');
-API_URL = 'http://127.0.0.1:8000'//"https://apibekmuxtorov.pythonanywhere.com"
+API_URL = "https://apibekmuxtorov.pythonanywhere.com"
 
 const url = `${API_URL}/api/projects/${projectId}/`;
 
