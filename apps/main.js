@@ -1,11 +1,9 @@
-url = 'https://apibekmuxtorov.pythonanywhere.com'
+url = 'http://127.0.0.1:8000'//'https://apibekmuxtorov.pythonanywhere.com'
 fetch(`${url}/api/projects/`)
     .then(response => response.json())
     .then(data => {
         // Ma'lumotlarni olish uchun ishlovchi kodlar
         var projects = Array.from(data)
-        console.log(data[0]);
-        console.log(typeof (projects));
         var ulElement = document.querySelector('.portfolio-items')
         projects.forEach((item) => {
             var liElement = document.createElement('li');
