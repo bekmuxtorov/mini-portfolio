@@ -1,4 +1,4 @@
-url = 'http://127.0.0.1:8000'//'https://apibekmuxtorov.pythonanywhere.com'
+url = 'https://apibekmuxtorov.pythonanywhere.com'
 fetch(`${url}/api/projects/`)
     .then(response => response.json())
     .then(data => {
